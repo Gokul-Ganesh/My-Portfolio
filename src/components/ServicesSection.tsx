@@ -4,33 +4,33 @@ import FadeIn from './FadeIn';
 const SERVICES = [
   {
     number: '01',
-    title: 'UI/UX Design',
+    title: 'RAG PIPELINES & ML INFERENCE ARCHITECTURE & LLM Automation',
     description:
-      'Designing clean, intuitive interfaces that prioritise user flow, hierarchy, and visual clarity — turning ideas into experiences people actually enjoy using.',
+      'Building end-to-end retrieval-augmented generation systems and async ML inference APIs — from document chunking and vector embedding into Qdrant, through metadata-filtered semantic search, to LLM-driven responses served via FastAPI with non-blocking job queues. reliable prompts and automation flows that turn LLMs into production-grade tools for content, analysis, and decision support.',
   },
   {
     number: '02',
-    title: 'Front-end Development',
-    description:
-      'Building responsive, performant web apps with React, TypeScript, and Tailwind — pixel-perfect on every screen, deployed seamlessly on Vercel.',
-  },
-  {
-    number: '03',
     title: 'GenAI Integration',
     description:
       'Wiring large language models into real products via Gemini, Claude, and OpenAI APIs — from resume reviewers to AI tutors and beyond.',
   },
   {
-    number: '04',
-    title: 'Prompt Engineering & LLM Automation',
-    description:
-      'Crafting reliable prompts and automation flows that turn LLMs into production-grade tools for content, analysis, and decision support.',
-  },
-  {
-    number: '05',
+    number: '03',
     title: 'Data Analysis & Visualization',
     description:
       'Exploring datasets with Python (Pandas, NumPy, Seaborn) and Power BI — turning raw numbers into clear insights and dashboards stakeholders can act on.',
+  },
+  {
+    number: '04',
+    title: 'UI/UX Design',
+    description:
+      'Designing clean, intuitive interfaces that prioritise user flow, hierarchy, and visual clarity — turning ideas into experiences people actually enjoy using.',
+  },
+  {
+    number: '05',
+    title: 'Front-end Development',
+    description:
+      'Building responsive, performant web apps with React, TypeScript, and Tailwind — pixel-perfect on every screen, deployed seamlessly on Vercel.',
   },
 ];
 

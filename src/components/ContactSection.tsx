@@ -12,27 +12,27 @@ const CONTACT_METHODS: ContactMethod[] = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'goyalharsh642@gmail.com',
-    href: 'mailto:goyalharsh642@gmail.com',
+    value: 'jpgokul03@gmail.com',
+    href: 'mailto:jpgokul03@gmail.com',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91 81682 94032',
+    value: '+91 8525980232',
     // wa.me requires digits only — no +, no spaces, no hyphens
-    href: 'https://wa.me/918168294032',
+    href: 'https://wa.me/918525980232',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'in/harsh-goyal-7900b2256',
-    href: 'https://www.linkedin.com/in/harsh-goyal-7900b2256/',
+    value: 'in/gokul-ganesh-j-a98000222',
+    href: 'https://www.linkedin.com/in/gokul-ganesh-j-a98000222/',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: '@harshgoyal27',
-    href: 'https://github.com/harshgoyal27',
+    value: '@Gokul-Ganesh',
+    href: 'https://github.com/Gokul-Ganesh',
   },
 ];
 
@@ -117,13 +117,13 @@ const ContactSection = () => {
             className="font-light uppercase tracking-widest text-[#D7E2EA]/50"
             style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.9rem)' }}
           >
-            © 2026 Harsh Goyal
+            © 2026 Gokul Ganesh
           </span>
           <span
             className="font-light uppercase tracking-widest text-[#D7E2EA]/50"
             style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.9rem)' }}
           >
-            Designed & built in Delhi
+            Designed & built in TamilNadu
           </span>
         </div>
       </FadeIn>

@@ -144,13 +144,13 @@ const HeroSection = () => {
                 className="font-black uppercase leading-[0.88] tracking-tight text-white"
                 style={{ fontSize: 'clamp(3rem, 12vw, 10.5rem)' }}
               >
-                Harsh<br />Goyal
+                Gokul<br />Ganesh
               </h1>
             </FadeIn>
 
             <FadeIn delay={0.85} y={20}>
               <p className="mt-5 md:mt-7 text-[10px] sm:text-xs md:text-sm font-medium uppercase tracking-[0.3em] text-white/75">
-                Developer · Designer · GenAI Integration
+                GenAI Integration · Designer · Developer
               </p>
             </FadeIn>
           </div>

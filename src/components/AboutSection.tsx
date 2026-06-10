@@ -3,7 +3,7 @@ import ContactButton from './ContactButton';
 import AnimatedText from './AnimatedText';
 
 const ABOUT_TEXT =
-  "I'm a Computer Science graduate from NSUT, currently a Content R&D Trainee at PhysicsWallah, where I help ship live, customer-facing learning products. I focus on UI/UX, front-end development, and GenAI integration — turning rough ideas into clean, engaging digital experiences. Let's build something incredible together!";
+  "I'm an AI Engineer with 1+ year building and shipping production AI/ML systems. I specialize in RAG pipelines, time series forecasting, and async inference APIs — turning raw IoT data into deployed cloud endpoints. Let's build something intelligent together!";
 
 const AboutSection = () => {
   return (
@@ -100,19 +100,25 @@ const AboutSection = () => {
                         {[
                           {
                             label: 'Languages',
-                            items: ['Python', 'JavaScript', 'HTML', 'CSS', 'SQL'],
+                            items: ['Python', 'SQL', 'Dart'],
                           },
                           {
                             label: 'Frameworks & Libraries',
-                            items: ['React', 'Tailwind', 'Pandas', 'NumPy', 'Scikit-learn', 'NLTK'],
+                            items: ['FastAPI', 'XGBoost', 'Pandas', 'NumPy', 'Scikit-learn', 'Flutter'],
                           },
                           {
                             label: 'Tools & Platforms',
-                            items: ['Figma', 'Vercel', 'Git', 'GitHub', 'Power BI', 'Canva', 'Excel'],
+                            items: ['Qdrant', 'AWS', 'DynamoDB', 'ThingsBoard','Proxmox','Figma', 'Vercel', 'Git', 'GitHub', 'Power BI', 'Canva', 'Excel'],
                           },
                           {
                             label: 'AI & GenAI',
-                            items: ['Gemini', 'Claude', 'OpenAI', 'Prompt engineering'],
+                            items: ['RAG Pipelines','Embedding Pipelines', 'NLP', 'LLM Integration','Time Series Forecasting','Claude','Gemini', 'OpenAI','Kimi','Gemini', 'Prompt engineering'],
+                          },
+                          {
+                            label: 'AI App Builders',
+                            items: ['Lovable', 'Antagravity'],
+
+
                           },
                         ].map((group) => (
                           <div
